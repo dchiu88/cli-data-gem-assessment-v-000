@@ -1,0 +1,5 @@
+#!/usr/local/bin ruby
+
+require_relative '../lib/nyc_restaurants'
+
+NycRestaurants::CLI.new.start

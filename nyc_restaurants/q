@@ -1,0 +1,31 @@
+=> [1;34m#(Element:0xdea1fc {[0m
+  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+  attributes = [
+    [1;34m#(Attr:0xcc5678 {[0m name = [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31minline-chop_1-0[1;31m"[0m[31m[0m }),
+    [1;34m#(Attr:0xcc5650 {[0m
+      name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m,
+      value = [31m[1;31m"[0m[31mcomp inline-chop article-intro text-passage js-inline-chop[1;31m"[0m[31m[0m
+      })],
+  children = [
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+    [1;34m#(Element:0xd104ac {[0m
+      name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+      children = [
+        [1;34m#(Text [0m[31m[1;31m"[0m[31mThe opportunities for dining out in New York City are practically endless — but your time and budget almost certainly aren’t. If you want to making dining out in one of the world’s great culinary centers count, don't waste time with a mediocre meal: Instead, look to the very best dining venues, as curated by leading restaurant-review publisher Zagat. Here are [1;31m"[0m[31m[0m),
+        [1;34m#(Element:0xd2d778 {[0m
+          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+          attributes = [
+            [1;34m#(Attr:0xd2c5d0 {[0m
+              name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m,
+              value = [31m[1;31m"[0m[31mhttps://www.zagat.com/l/new-york-city/restaurants-with-the-best-food-in-nyc[1;31m"[0m[31m[0m
+              }),
+            [1;34m#(Attr:0xd2c5bc {[0m name = [31m[1;31m"[0m[31mdata-component[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mlink[1;31m"[0m[31m[0m }),
+            [1;34m#(Attr:0xd2c5a8 {[0m name = [31m[1;31m"[0m[31mdata-source[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31minlineLink[1;31m"[0m[31m[0m }),
+            [1;34m#(Attr:0xd2c56c {[0m name = [31m[1;31m"[0m[31mdata-type[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mexternalLink[1;31m"[0m[31m[0m }),
+            [1;34m#(Attr:0xd2c558 {[0m name = [31m[1;31m"[0m[31mdata-ordinal[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m })],
+          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mZagat’s top 10 picks for NYC restaurants[1;31m"[0m[31m[0m)]
+          }),
+        [1;34m#(Text [0m[31m[1;31m"[0m[31m, as rated for their culinary excellence.[1;31m"[0m[31m[0m)]
+      }),
+    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+  })
