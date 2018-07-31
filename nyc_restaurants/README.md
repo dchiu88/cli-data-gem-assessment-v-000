@@ -1,8 +1,6 @@
 # NycRestaurants
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nyc_restaurants`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to NYC Restaurants. This is a CLI Gem project that scrapes a url (https://www.tripsavvy.com/zagat-best-nyc-restaurants-4159763) and allows the user to view the 10 restaurants that are reviewed.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To run the program enter the following into the command line:
+
+ruby bin/restaurant_review
+
+Once the program runs, follow the instructions in the prompts. Enjoy!
 
 ## Development
 
