@@ -32,10 +32,10 @@ class NycRestaurants::CLI
         !input.to_i || input.to_i == 0
         puts "Invalid Selection"
         puts ""
-      main_menu
+        main_menu
       else
-      index = input.to_i - 1
-      call_scraper(index)
+        index = input.to_i - 1
+        call_scraper(index)
       end
   end
 
