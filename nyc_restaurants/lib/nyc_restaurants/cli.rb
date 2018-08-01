@@ -29,7 +29,7 @@ class NycRestaurants::CLI
       if input == "exit"
         exit
       elsif input.to_i > NycRestaurants::Restaurants.all.length ||
-        !input.to_i || input.to_i == 0
+      !input.to_i || input.to_i == 0
         puts "Invalid Selection"
         puts ""
         main_menu
