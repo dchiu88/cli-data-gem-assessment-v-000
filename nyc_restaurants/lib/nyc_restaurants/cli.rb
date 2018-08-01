@@ -42,7 +42,6 @@ class NycRestaurants::CLI
   def call_scraper(index)
     restaurant = NycRestaurants::Restaurants.all[index]
     NycRestaurants::Scraper.scrape_restaurant_details(index)
-
     puts "Here are the details:"
     puts  NycRestaurants::Scraper.scrape_restaurant_details(index)
     puts ""
