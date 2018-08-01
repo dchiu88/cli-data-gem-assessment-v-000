@@ -5,11 +5,11 @@ class NycRestaurants::Scraper
   @@all_reviews = []
 
   def self.scrape_restaurants
-     doc = Nokogiri::HTML(open(BASE_URL))
-     doc.css('.loc').css('h3').each do |restaurant|
-       name = restaurant.children.text.strip
-       NycRestaurants::Restaurants.new(name)
-     end
+    doc = Nokogiri::HTML(open(BASE_URL))
+    doc.css('.loc').css('h3').each do |restaurant|
+    name = restaurant.children.text.strip
+    NycRestaurants::Restaurants.new(name)
+    end
   end
 
 
@@ -18,10 +18,8 @@ class NycRestaurants::Scraper
     doc.css('.comp.inline-chop.ordered-list__content-description.text-passage').each do |description|
     review = description.children.text.strip
     @@all_reviews << review
-   end
-  @@all_reviews[index]
+    end
+    @@all_reviews[index]
   end
-
-
 
 end

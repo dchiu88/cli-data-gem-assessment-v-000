@@ -28,21 +28,25 @@ class NycRestaurants::CLI
     input = gets.strip
       if input == "exit"
         exit
-      elsif input.to_i > NycRestaurants::Restaurants.all.length || !input.to_i || input.to_i == 0
+      elsif input.to_i > NycRestaurants::Restaurants.all.length ||
+        !input.to_i || input.to_i == 0
         puts "Invalid Selection"
         puts ""
+      main_menu
+      else
+      index = input.to_i - 1
+      call_scraper(index)
+      end
+  end
+
+  def call_scraper(index)
+    restaurant = NycRestaurants::Restaurants.all[index]
+    NycRestaurants::Scraper.scrape_restaurant_details(index)
+
+    puts "Here are the details:"
+    puts  NycRestaurants::Scraper.scrape_restaurant_details(index)
+    puts ""
     main_menu
   end
 
-  index = input.to_i - 1
-
-  restaurant = NycRestaurants::Restaurants.all[index]
-
-  NycRestaurants::Scraper.scrape_restaurant_details(index)
-
-  puts "Here are the details:"
-  puts  NycRestaurants::Scraper.scrape_restaurant_details(index)
-  puts ""
-  main_menu
-  end
 end
